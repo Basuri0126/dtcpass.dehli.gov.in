@@ -41882,6 +41882,17 @@ fieldset[disabled] .rd-file-picker-btn {
   font-weight: bold;
   color: #f36371;
 }
+/* Default style for desktop */
+.divider bg-madison hr-sm-left-0{
+  /* Your desktop styles here */
+}
+
+/* Media query for screens with a maximum width of, for example, 767px (adjust as needed) */
+@media (max-width: 767px) {
+  .divider.bg-madison.hr-sm-left-0 {
+      display: none; /* Hide the divider on smaller screens */
+  }
+}
 
 @media (min-width: 480px) {
   .time_circles > div > span {
